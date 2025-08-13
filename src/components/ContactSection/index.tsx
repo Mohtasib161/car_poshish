@@ -29,7 +29,7 @@ const ContactSection = () => {
                   />
                 </svg>
                 <h3 className="font-serif font-bold text-xl mb-2">Call Us</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">03217307848</p>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const ContactSection = () => {
                   />
                 </svg>
                 <h3 className="font-serif font-bold text-xl mb-2">Visit Us</h3>
-                <p className="text-gray-600">123 Luxury Ave, Premium City</p>
+                <p className="text-gray-600">Lahore City</p>
               </div>
             </div>
           </div>
