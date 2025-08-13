@@ -1,3 +1,4 @@
+import AboutUs from '@/components/AboutUs'
 import ContactSection from '@/components/ContactSection'
 import CTA from '@/components/CTASection'
 import Features from '@/components/FeaturesSection'
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Navbar />
       <HeroSection />
       <Features />
+      <AboutUs />
       <ProductsSection />
       <CTA />
       <ContactSection />

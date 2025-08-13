@@ -18,22 +18,22 @@ const ProductsSection = () => {
                         {[
                             {
                                 name: "Executive Series",
-                                price: "From $2,999",
+                               
                                 image: "/images/image6.jpg",
                             },
                             { name: "Sport Elite", price: "From $3,499", image: "/images/image10.jpg" },
                             {
                                 name: "Comfort Plus",
-                                price: "From $2,499",
+                             
                                 image: "/images/image15.jpg",
                             },
-                            { name: "Custom Signature", price: "From $4,999", 
+                            { name: "Custom Signature", 
                                 image: "/images/image5.jpg" },
                             { name: "Racing Pro", price: "From $3,999", image: 
                                 "/images/image3.jpg" },
                             {
                                 name: "Presidential",
-                                price: "From $5,999",
+                               
                                 image: "/images/image12.jpg",
                             },
                         ].map((product, index) => (
@@ -53,7 +53,7 @@ const ProductsSection = () => {
                                 </div>
                                 <div className="p-6">
                                     <h3 className="font-serif font-bold text-xl mb-2 text-gray-900">{product.name}</h3>
-                                    <p className="text-orange-600 font-semibold text-lg mb-4">{product.price}</p>
+                                   
                                     <button className="w-full bg-gradient-to-r from-orange-600 to-amber-600 text-white hover:opacity-90 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
                                         View Details
                                     </button>
